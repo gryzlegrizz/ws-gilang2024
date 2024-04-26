@@ -19,4 +19,5 @@ func Web(page *fiber.App) {
 
 	page.Get("/checkip", controller.Homepage) //ujicoba panggil package musik
 	page.Get("/presensi", controller.GetPresensi) //akses package beserta nama fungs
+	page.Get("/presensi/:id", controller.GetPresensiID) //menampilkan data presensi berdasarkan id
 }

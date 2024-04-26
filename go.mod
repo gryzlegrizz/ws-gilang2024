@@ -10,6 +10,7 @@ require (
 	github.com/indrariksa/ws-indra2024 v0.0.0-20240425153209-bd6443558e4b
 	github.com/whatsauth/whatsauth v0.2.9
 	go.mau.fi/whatsmeow v0.0.0-20240327124018-350073db195c
+	go.mongodb.org/mongo-driver v1.14.0
 )
 
 require (
@@ -48,7 +49,6 @@ require (
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a // indirect
 	go.mau.fi/libsignal v0.1.0 // indirect
 	go.mau.fi/util v0.4.1 // indirect
-	go.mongodb.org/mongo-driver v1.14.0 // indirect
 	golang.org/x/crypto v0.21.0 // indirect
 	golang.org/x/sync v0.2.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
