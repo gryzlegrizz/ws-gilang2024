@@ -30,7 +30,19 @@ func GetPresensi(c *fiber.Ctx) error {
 	ps := cek.GetAllPresensi(config.Ulbimongoconn, "presensi")
 	return c.JSON(ps)
 	}
-
+	
+	// GetPresensiID godoc
+	// @Summary Get By ID Data Presensi.
+	// @Description Ambil per ID data presensi.
+	// @Tags Presensi
+	// @Accept json
+	// @Produce json
+	// @Param id path string true "Masukan ID"
+	// @Success 200 {object} Presensi
+	// @Failure 400
+	// @Failure 404
+	// @Failure 500
+	// @Router /presensi/{id} [get]
 	func GetPresensiID(c *fiber.Ctx) error {
 		id := c.Params("id")
 		if id == "" {
@@ -159,18 +171,17 @@ func GetPresensi(c *fiber.Ctx) error {
 		})
 	}
 
-	// GetPresensiID godoc
-	// @Summary Get By ID Data Presensi.
-	// @Description Ambil per ID data presensi.
+	// DeletePresensiByID godoc
+	// @Summary Delete data presensi.
+	// @Description Hapus data presensi.
 	// @Tags Presensi
 	// @Accept json
 	// @Produce json
 	// @Param id path string true "Masukan ID"
-	// @Success 200 {object} Presensi
+	// @Success 200
 	// @Failure 400
-	// @Failure 404
 	// @Failure 500
-	// @Router /presensi/{id} [get]
+	// @Router /delete/{id} [delete]
 	func DeletePresensiByID(c *fiber.Ctx) error {
 		id := c.Params("id")
 		if id == "" {
