@@ -104,7 +104,7 @@ info:
   title: Fiber Example API
   version: "1.0"
 paths:
-  /ins:
+  /insert:
     post:
       consumes:
       - application/json

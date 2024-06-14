@@ -23,7 +23,7 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/ins": {
+        "/insert": {
             "post": {
                 "description": "Input data presensi.",
                 "consumes": [
