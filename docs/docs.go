@@ -141,9 +141,9 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
-	Host:             "localhost:8080",
+	Host:             "ws-gilang2024-1716ba1b2ba6.herokuapp.com",
 	BasePath:         "/",
-	Schemes:          []string{},
+	Schemes:          []string{"https", "http"},
 	Title:            "Fiber Example API",
 	Description:      "This is a sample swagger for Fiber",
 	InfoInstanceName: "swagger",

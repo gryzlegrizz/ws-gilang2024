@@ -26,8 +26,9 @@ import (
 // @contact.email fiber@swagger.io
 // @license.name Apache 2.0
 // @license.url http://www.apache.org/licenses/LICENSE-2.0.html
-// @host localhost:8080
+// @host ws-gilang2024-1716ba1b2ba6.herokuapp.com
 // @BasePath /
+// @schemes https http
 
 func main() {
 	site := fiber.New(config.Iteung)

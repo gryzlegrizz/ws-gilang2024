@@ -57,7 +57,7 @@ definitions:
       phone_number:
         type: string
     type: object
-host: localhost:8080
+host: ws-gilang2024-1716ba1b2ba6.herokuapp.com
 info:
   contact:
     email: fiber@swagger.io
@@ -85,4 +85,7 @@ paths:
       summary: Get All Data Presensi.
       tags:
       - Presensi
+schemes:
+- https
+- http
 swagger: "2.0"

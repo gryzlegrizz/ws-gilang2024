@@ -1,4 +1,8 @@
 {
+    "schemes": [
+        "https",
+        "http"
+    ],
     "swagger": "2.0",
     "info": {
         "description": "This is a sample swagger for Fiber",
@@ -14,7 +18,7 @@
         },
         "version": "1.0"
     },
-    "host": "localhost:8080",
+    "host": "ws-gilang2024-1716ba1b2ba6.herokuapp.com",
     "basePath": "/",
     "paths": {
         "/presensi": {
